@@ -19,15 +19,29 @@
         app:layout_constraintVertical_bias="0.9" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/Activity1"
         android:layout_width="191dp"
         android:layout_height="139dp"
-        android:text="Button"
-        android:onClick="genNumber"
+        android:text="Next"
+        android:textSize="25dp"
+        android:onClick="Next"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.721" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="191dp"
+        android:layout_height="139dp"
+        android:onClick="genNumber"
+        android:textSize="25dp"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.396" />
 </androidx.constraintlayout.widget.ConstraintLayout>
