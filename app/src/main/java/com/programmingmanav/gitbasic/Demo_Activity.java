@@ -6,18 +6,15 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class Animation extends AppCompatActivity {
+public class Demo_Activity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_animation);
-
-
-
+        setContentView(R.layout.activity_demo);
     }
 
-    public void Next(View view) {
-        startActivity(new Intent (this , Demo_Activity.class));
+    public void Home(View view) {
+        startActivity(new Intent(this , MainActivity.class));
     }
 }

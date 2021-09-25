@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GitBasic">
         <activity
+            android:name=".Demo_Activity"
+            android:exported="true" />
+        <activity
             android:name=".Animation"
             android:exported="true" />
         <activity

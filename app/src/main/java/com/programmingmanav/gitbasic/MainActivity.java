@@ -20,4 +20,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void genNumber(View view) {
     }
+
+
+    public void Next(View view) {
+
+    }
 }
