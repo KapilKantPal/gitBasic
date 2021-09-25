@@ -32,4 +32,6 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent( MainActivity.this , Animation.class);
         startActivity(intent);
     }
+
+
 }
